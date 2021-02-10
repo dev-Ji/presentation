@@ -10,9 +10,9 @@ Docker : **컨테이너 기반의 오픈소스 가상화 플랫폼**<br>
 데이터베이스 서버, 자바서버 등 어떤 프로그램도 컨테이너로 추상화 할 수 있고 조립PC, AWS, Google cloud등 어디에서든 실행 할 수 있습니다.<br>
 <br>
 
-### ##컨테이너(Container)란?
-*컨테이너는 격리된 공간에서 프로세스가 동작하는 기술(가상화 기술의 하나지만 기존 방식과는 차이)<br>
-기존의 가상화 방식은 주로 **OS를 가상화**하였습니다.<br>
+### 컨테이너(Container)란?
+* 컨테이너는 격리된 공간에서 프로세스가 동작하는 기술(가상화 기술의 하나지만 기존 방식과는 차이)<br>
+기존의 가상화 방식은 주로 **OS를 가상화**<br>
 <img src = "https://subicura.com/assets/article_images/2017-01-19-docker-guide-for-beginners-1/vm-vs-docker.png" width ="800px" height="400px"><br>
 VMware 나 VirtualBox 같은 가상머신은 호스트 OS위에 게스트 OS전체를 가상화하여 사용하는 방식입니다. <br>
 이 방식은 여러가지 OS를 가상화(ex:리눅스에서 윈도우를 돌리는것)할 수 있고 비교적 사용법이 간단하지만 무겁고 느려서 운영환경에선 사용할 수 없었습니다.<br>
